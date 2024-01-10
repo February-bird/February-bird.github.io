@@ -1,0 +1,38 @@
+/*34*16 = 540 */
+@media (max-width: 34em) {
+  html {
+    font-size: 57%;
+  }
+}
+
+/* 448 */
+@media (max-width: 28em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 400px */
+@media (max-width: 25em) {
+  html {
+    font-size: 44%;
+  }
+
+  /* body {
+    padding: 0 3rem;
+  } */
+}
+/*  */
+@media (max-width: 21em) {
+  html {
+    font-size: 38%;
+  }
+}
+
+/* 304 */
+/* 1rem = 5px */
+@media (max-width: 19em) {
+  html {
+    font-size: 31.25%;
+  }
+}

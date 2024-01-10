@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url(query.css);
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  min-width: 35rem;
+  max-width: 45rem;
+  padding: 2rem;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 3rem #ddd;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+input {
+  display: block;
+  appearance: none;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 1.6rem;
+  font-size: 1.75rem;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: 0.25s;
+}
+
+input:focus {
+  border-color: #7540bf;
+  box-shadow: 0 0 0 0.4rem #c29ffacd;
+}
+
+input:valid {
+  border-color: #228b22;
+}
+
+input::placeholder {
+  color: #666;
+  font-size: 1.75rem;
+}
+
+input[type="submit"] {
+  font-size: 2.25rem;
+  letter-spacing: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e0cffc;
+  border: none;
+  transition: 0.25s;
+}
+
+.tips {
+  display: none;
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  color: #dc3545;
+}
+
+.show {
+  display: block;
+}
+
+.border-tips {
+  border-color: #dc3545;
+}
+
+@media (max-width: 25em) {
+  body {
+    padding: 0 3rem;
+  }
+}
