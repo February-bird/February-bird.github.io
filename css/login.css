@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(common.css);
 @import url(query.css);
 
 .container {
@@ -70,10 +71,6 @@ input[type="submit"] {
   margin-top: 1rem;
   font-size: 1.75rem;
   color: #dc3545;
-}
-
-.show {
-  display: block;
 }
 
 .border-tips {

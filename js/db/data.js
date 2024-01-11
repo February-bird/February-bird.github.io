@@ -209,31 +209,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 73,
         comment: "",
-        singleRank: 22,
+        singleRank: 28
       },
       {
         course: "应用文写作",
         score: 69,
         comment: "",
-        singleRank: 16,
+        singleRank: 30
       },
       {
         course: "就业指导",
         score: 80,
         comment: "",
-        singleRank: 11,
+        singleRank: 24
       },
       {
         course: "体育",
         score: 60,
         comment: "",
-        singleRank: 12,
+        singleRank: 32
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -245,19 +245,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 63,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 62,
         comment: "",
-        singleRank: 12,
+        singleRank: 25
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -270,31 +270,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 84,
         comment: "",
-        singleRank: 13,
+        singleRank: 16
       },
       {
         course: "应用文写作",
         score: 68,
         comment: "",
-        singleRank: 17,
+        singleRank: 31
       },
       {
         course: "就业指导",
         score: 81,
         comment: "",
-        singleRank: 10,
+        singleRank: 22
       },
       {
         course: "体育",
         score: 67,
         comment: "",
-        singleRank: 11,
+        singleRank: 31
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 96,
         comment: "",
-        singleRank: 3,
+        singleRank: 4
       },
       {
         course: "劳动教育",
@@ -304,21 +304,21 @@ const score = [
       },
       {
         course: "HTML5+CSS3",
-        score: 0,
+        score: 20,
         comment: "缺考",
-        singleRank: 14,
+        singleRank: 32
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -331,31 +331,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 66,
         comment: "",
-        singleRank: 25,
+        singleRank: 33
       },
       {
         course: "应用文写作",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "就业指导",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "体育",
         score: 71,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 78,
         comment: "",
-        singleRank: 14,
+        singleRank: 29
       },
       {
         course: "劳动教育",
@@ -367,19 +367,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 27
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 62,
         comment: "",
-        singleRank: 12,
+        singleRank: 25
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -387,37 +387,36 @@ const score = [
     stuNo: "216210143",
     overallRank: 21,
     totalScore: 608,
-
     subjects: [
       {
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 85,
         comment: "",
-        singleRank: 11,
+        singleRank: 13
       },
       {
         course: "应用文写作",
         score: 76,
         comment: "",
-        singleRank: 14,
+        singleRank: 26
       },
       {
         course: "就业指导",
         score: 90,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "体育",
         score: 71,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 93,
         comment: "",
-        singleRank: 6,
+        singleRank: 15
       },
       {
         course: "劳动教育",
@@ -429,19 +428,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 63,
         comment: "",
-        singleRank: 11,
+        singleRank: 24
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -455,31 +454,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 69,
         comment: "",
-        singleRank: 24,
+        singleRank: 31
       },
       {
         course: "应用文写作",
         score: 67,
         comment: "",
-        singleRank: 19,
+        singleRank: 32
       },
       {
         course: "就业指导",
         score: 66,
         comment: "",
-        singleRank: 14,
+        singleRank: 33
       },
       {
         course: "体育",
         score: 99,
         comment: "",
-        singleRank: 2,
+        singleRank: 7
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 40,
         comment: "",
-        singleRank: 17,
+        singleRank: 32
       },
       {
         course: "劳动教育",
@@ -491,19 +490,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 27
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -516,31 +515,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 85,
         comment: "",
-        singleRank: 11,
+        singleRank: 13
       },
       {
         course: "应用文写作",
         score: 62,
         comment: "",
-        singleRank: 18,
+        singleRank: 33
       },
       {
         course: "就业指导",
         score: 77,
         comment: "",
-        singleRank: 13,
+        singleRank: 32
       },
       {
         course: "体育",
         score: 49,
         comment: "补考",
-        singleRank: 13,
+        singleRank: 33
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 38,
         comment: "补考",
-        singleRank: 18,
+        singleRank: 33
       },
       {
         course: "劳动教育",
@@ -550,21 +549,21 @@ const score = [
       },
       {
         course: "HTML5+CSS3",
-        score: 0,
+        score: 20,
         comment: "缺考",
-        singleRank: 14,
+        singleRank: 32
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -578,31 +577,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 99,
         comment: "",
-        singleRank: 2,
+        singleRank: 2
       },
       {
         course: "应用文写作",
         score: 88,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "就业指导",
         score: 90,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "体育",
         score: 68,
         comment: "补考",
-        singleRank: 10,
+        singleRank: 30
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -614,19 +613,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 63,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 62,
         comment: "",
-        singleRank: 9,
+        singleRank: 26
       },
     ],
   },
@@ -634,37 +633,36 @@ const score = [
     stuNo: "216210302",
     overallRank: 26,
     totalScore: 586,
-
     subjects: [
       {
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 85,
         comment: "",
-        singleRank: 11,
+        singleRank: 13
       },
       {
         course: "应用文写作",
         score: 70,
         comment: "",
-        singleRank: 15,
+        singleRank: 29
       },
       {
         course: "就业指导",
         score: 84,
         comment: "",
-        singleRank: 7,
+        singleRank: 14
       },
       {
         course: "体育",
         score: 74,
         comment: "",
-        singleRank: 5,
+        singleRank: 11
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 93,
         comment: "",
-        singleRank: 6,
+        singleRank: 15
       },
       {
         course: "劳动教育",
@@ -676,19 +674,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 27
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -702,31 +700,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 77,
         comment: "",
-        singleRank: 18,
+        singleRank: 23
       },
       {
         course: "应用文写作",
         score: 80,
         comment: "",
-        singleRank: 10,
+        singleRank: 20
       },
       {
         course: "就业指导",
         score: 81,
         comment: "",
-        singleRank: 10,
+        singleRank: 22
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 82,
         comment: "",
-        singleRank: 10,
+        singleRank: 22
       },
       {
         course: "劳动教育",
@@ -738,19 +736,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 70,
         comment: "",
-        singleRank: 8,
+        singleRank: 12
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 63,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
     ],
   },
@@ -764,31 +762,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 94,
         comment: "",
-        singleRank: 6,
+        singleRank: 8
       },
       {
         course: "应用文写作",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 4
       },
       {
         course: "就业指导",
         score: 93,
         comment: "",
-        singleRank: 2,
+        singleRank: 2
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 85,
         comment: "",
-        singleRank: 9,
+        singleRank: 21
       },
       {
         course: "劳动教育",
@@ -800,19 +798,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 10
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 70,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "Java编程技术基础",
         score: 70,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
     ],
   },
@@ -826,31 +824,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 78,
         comment: "",
-        singleRank: 16,
+        singleRank: 22
       },
       {
         course: "应用文写作",
         score: 85,
         comment: "",
-        singleRank: 6,
+        singleRank: 8
       },
       {
         course: "就业指导",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 27
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 78,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "劳动教育",
@@ -862,19 +860,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 86,
         comment: "",
-        singleRank: 2,
+        singleRank: 2
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 92,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "Java编程技术基础",
         score: 85,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
     ],
   },
@@ -888,31 +886,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 75,
         comment: "",
-        singleRank: 19,
+        singleRank: 25
       },
       {
         course: "应用文写作",
         score: 82,
         comment: "",
-        singleRank: 8,
+        singleRank: 13
       },
       {
         course: "就业指导",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 27
       },
       {
         course: "体育",
         score: 74,
         comment: "",
-        singleRank: 5,
+        singleRank: 11
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 80,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "劳动教育",
@@ -924,19 +922,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -950,31 +948,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 88,
         comment: "",
-        singleRank: 10,
+        singleRank: 12
       },
       {
         course: "应用文写作",
         score: 90,
         comment: "",
-        singleRank: 2,
+        singleRank: 2
       },
       {
         course: "就业指导",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 27
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 80,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "劳动教育",
@@ -986,19 +984,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 64,
         comment: "",
-        singleRank: 11,
+        singleRank: 23
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 62,
         comment: "",
-        singleRank: 12,
+        singleRank: 25
       },
       {
         course: "Java编程技术基础",
         score: 66,
         comment: "",
-        singleRank: 6,
+        singleRank: 12
       },
     ],
   },
@@ -1012,31 +1010,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 84,
         comment: "",
-        singleRank: 12,
+        singleRank: 16
       },
       {
         course: "应用文写作",
         score: 81,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "就业指导",
         score: 82,
         comment: "",
-        singleRank: 9,
+        singleRank: 19
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 80,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "劳动教育",
@@ -1048,19 +1046,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 63,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 63,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
     ],
   },
@@ -1074,31 +1072,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 80,
         comment: "",
-        singleRank: 15,
+        singleRank: 20
       },
       {
         course: "应用文写作",
         score: 83,
         comment: "",
-        singleRank: 7,
+        singleRank: 10
       },
       {
         course: "就业指导",
         score: 82,
         comment: "",
-        singleRank: 9,
+        singleRank: 19
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -1110,19 +1108,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 76,
         comment: "",
-        singleRank: 5,
+        singleRank: 6
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -1136,31 +1134,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 75,
         comment: "",
-        singleRank: 20,
+        singleRank: 25
       },
       {
         course: "应用文写作",
         score: 83,
         comment: "",
-        singleRank: 7,
+        singleRank: 10
       },
       {
         course: "就业指导",
         score: 80,
         comment: "",
-        singleRank: 11,
+        singleRank: 24
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 96,
         comment: "",
-        singleRank: 3,
+        singleRank: 4
       },
       {
         course: "劳动教育",
@@ -1172,19 +1170,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 76,
         comment: "",
-        singleRank: 5,
+        singleRank: 6
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 76,
         comment: "",
-        singleRank: 7,
+        singleRank: 11
       },
       {
         course: "Java编程技术基础",
         score: 85,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
     ],
   },
@@ -1197,31 +1195,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 74,
         comment: "",
-        singleRank: 21,
+        singleRank: 27
       },
       {
         course: "应用文写作",
         score: 85,
         comment: "",
-        singleRank: 10,
+        singleRank: 8
       },
       {
         course: "就业指导",
         score: 82,
         comment: "",
-        singleRank: 9,
+        singleRank: 19
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -1233,19 +1231,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 85,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 82,
         comment: "",
-        singleRank: 4,
+        singleRank: 6
       },
       {
         course: "Java编程技术基础",
         score: 85,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
     ],
   },
@@ -1259,31 +1257,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 90,
         comment: "",
-        singleRank: 9,
+        singleRank: 11
       },
       {
         course: "应用文写作",
         score: 80,
         comment: "",
-        singleRank: 6,
+        singleRank: 20
       },
       {
         course: "就业指导",
         score: 90,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "体育",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 20
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 90,
         comment: "",
-        singleRank: 8,
+        singleRank: 20
       },
       {
         course: "劳动教育",
@@ -1295,19 +1293,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 70,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -1321,31 +1319,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 71,
         comment: "",
-        singleRank: 23,
+        singleRank: 30
       },
       {
         course: "应用文写作",
         score: 81,
         comment: "",
-        singleRank: 4,
+        singleRank: 15
       },
       {
         course: "就业指导",
         score: 80,
         comment: "",
-        singleRank: 11,
+        singleRank: 24
       },
       {
         course: "体育",
         score: 75,
         comment: "",
-        singleRank: 4,
+        singleRank: 10
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 92,
         comment: "",
-        singleRank: 7,
+        singleRank: 17
       },
       {
         course: "劳动教育",
@@ -1357,19 +1355,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 85,
         comment: "",
-        singleRank: 3,
+        singleRank: 4
       },
       {
         course: "Java编程技术基础",
         score: 66,
         comment: "",
-        singleRank: 6,
+        singleRank: 12
       },
     ],
   },
@@ -1383,31 +1381,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "应用文写作",
         score: 81,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "就业指导",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 27
       },
       {
         course: "体育",
         score: 71,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "劳动教育",
@@ -1419,19 +1417,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 80,
         comment: "",
-        singleRank: 4,
+        singleRank: 5
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 80,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
       {
         course: "Java编程技术基础",
         score: 80,
         comment: "",
-        singleRank: 2,
+        singleRank: 4
       },
     ],
   },
@@ -1445,31 +1443,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 80,
         comment: "",
-        singleRank: 15,
+        singleRank: 20
       },
       {
         course: "应用文写作",
         score: 79,
         comment: "",
-        singleRank: 9,
+        singleRank: 22
       },
       {
         course: "就业指导",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 98,
         comment: "",
-        singleRank: 2,
+        singleRank: 3
       },
       {
         course: "劳动教育",
@@ -1481,19 +1479,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 70,
         comment: "",
-        singleRank: 8,
+        singleRank: 12
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 76,
         comment: "",
-        singleRank: 7,
+        singleRank: 11
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -1507,31 +1505,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 92,
         comment: "",
-        singleRank: 7,
+        singleRank: 9
       },
       {
         course: "应用文写作",
         score: 83,
         comment: "",
-        singleRank: 11,
+        singleRank: 10
       },
       {
         course: "就业指导",
         score: 85,
         comment: "",
-        singleRank: 6,
+        singleRank: 12
       },
       {
         course: "体育",
         score: 69,
         comment: "",
-        singleRank: 9,
+        singleRank: 29
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 92,
         comment: "",
-        singleRank: 7,
+        singleRank: 17
       },
       {
         course: "劳动教育",
@@ -1543,19 +1541,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 27
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -1569,31 +1567,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 96,
         comment: "",
-        singleRank: 4,
+        singleRank: 5
       },
       {
         course: "应用文写作",
         score: 86,
         comment: "",
-        singleRank: 7,
+        singleRank: 7
       },
       {
         course: "就业指导",
         score: 84,
         comment: "",
-        singleRank: 7,
+        singleRank: 14
       },
       {
         course: "体育",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 20
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 94,
         comment: "",
-        singleRank: 5,
+        singleRank: 14
       },
       {
         course: "劳动教育",
@@ -1605,19 +1603,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 75,
         comment: "",
-        singleRank: 6,
+        singleRank: 8
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 80,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
       {
         course: "Java编程技术基础",
         score: 66,
         comment: "",
-        singleRank: 6,
+        singleRank: 12
       },
     ],
   },
@@ -1631,31 +1629,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 98,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "应用文写作",
         score: 87,
         comment: "",
-        singleRank: 8,
+        singleRank: 4
       },
       {
         course: "就业指导",
         score: 90,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -1667,19 +1665,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 70,
         comment: "",
-        singleRank: 8,
+        singleRank: 12
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 75,
         comment: "",
-        singleRank: 8,
+        singleRank: 14
       },
       {
         course: "Java编程技术基础",
         score: 70,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
     ],
   },
@@ -1693,31 +1691,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 73,
         comment: "",
-        singleRank: 22,
+        singleRank: 28
       },
       {
         course: "应用文写作",
         score: 82,
         comment: "",
-        singleRank: 5,
+        singleRank: 13
       },
       {
         course: "就业指导",
         score: 83,
         comment: "",
-        singleRank: 8,
+        singleRank: 17
       },
       {
         course: "体育",
         score: 73,
         comment: "",
-        singleRank: 6,
+        singleRank: 13
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 71,
         comment: "",
-        singleRank: 15,
+        singleRank: 30
       },
       {
         course: "劳动教育",
@@ -1729,19 +1727,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 70,
         comment: "",
-        singleRank: 8,
+        singleRank: 12
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 85,
         comment: "",
-        singleRank: 3,
+        singleRank: 4
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -1755,31 +1753,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 77,
         comment: "",
-        singleRank: 17,
+        singleRank: 23
       },
       {
         course: "应用文写作",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 4
       },
       {
         course: "就业指导",
         score: 83,
         comment: "",
-        singleRank: 8,
+        singleRank: 17
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 81,
         comment: "",
-        singleRank: 11,
+        singleRank: 23
       },
       {
         course: "劳动教育",
@@ -1791,19 +1789,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 75,
         comment: "",
-        singleRank: 6,
+        singleRank: 8
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 88,
         comment: "",
-        singleRank: 2,
+        singleRank: 3
       },
       {
         course: "Java编程技术基础",
         score: 75,
         comment: "",
-        singleRank: 3,
+        singleRank: 6
       },
     ],
   },
@@ -1817,31 +1815,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 69,
         comment: "",
-        singleRank: 24,
+        singleRank: 31
       },
       {
         course: "应用文写作",
         score: 76,
         comment: "",
-        singleRank: 14,
+        singleRank: 26
       },
       {
         course: "就业指导",
         score: 78,
         comment: "",
-        singleRank: 12,
+        singleRank: 27
       },
       {
         course: "体育",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 20
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 69,
         comment: "",
-        singleRank: 16,
+        singleRank: 31
       },
       {
         course: "劳动教育",
@@ -1853,19 +1851,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 27
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 60,
         comment: "",
-        singleRank: 13,
+        singleRank: 28
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -1879,31 +1877,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 96,
         comment: "",
-        singleRank: 4,
+        singleRank: 5
       },
       {
         course: "应用文写作",
         score: 92,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "就业指导",
         score: 95,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "体育",
         score: 99,
         comment: "",
-        singleRank: 2,
+        singleRank: 7
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -1915,19 +1913,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 90,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 82,
         comment: "",
-        singleRank: 4,
+        singleRank: 6
       },
       {
         course: "Java编程技术基础",
         score: 70,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
     ],
   },
@@ -1941,31 +1939,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 98,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "应用文写作",
         score: 81,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "就业指导",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "体育",
         score: 71,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 96,
         comment: "",
-        singleRank: 3,
+        singleRank: 4
       },
       {
         course: "劳动教育",
@@ -1977,19 +1975,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 85,
         comment: "",
-        singleRank: 3,
+        singleRank: 3
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 92,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "Java编程技术基础",
         score: 72,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
     ],
   },
@@ -2003,31 +2001,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 83,
         comment: "",
-        singleRank: 14,
+        singleRank: 18
       },
       {
         course: "应用文写作",
         score: 81,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "就业指导",
         score: 87,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "体育",
         score: 71,
         comment: "",
-        singleRank: 8,
+        singleRank: 24
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "劳动教育",
@@ -2039,19 +2037,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 76,
         comment: "",
-        singleRank: 7,
+        singleRank: 11
       },
       {
         course: "Java编程技术基础",
         score: 60,
         comment: "",
-        singleRank: 10,
+        singleRank: 27
       },
     ],
   },
@@ -2065,31 +2063,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 96,
         comment: "",
-        singleRank: 5,
+        singleRank: 5
       },
       {
         course: "应用文写作",
         score: 77,
         comment: "",
-        singleRank: 13,
+        singleRank: 25
       },
       {
         course: "就业指导",
         score: 84,
         comment: "",
-        singleRank: 7,
+        singleRank: 14
       },
       {
         course: "体育",
         score: 84,
         comment: "",
-        singleRank: 3,
+        singleRank: 9
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 95,
         comment: "",
-        singleRank: 4,
+        singleRank: 7
       },
       {
         course: "劳动教育",
@@ -2101,19 +2099,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 68,
         comment: "",
-        singleRank: 9,
+        singleRank: 16
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 70,
         comment: "",
-        singleRank: 9,
+        singleRank: 15
       },
       {
         course: "Java编程技术基础",
         score: 65,
         comment: "",
-        singleRank: 7,
+        singleRank: 15
       },
     ],
   },
@@ -2127,31 +2125,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 92,
         comment: "",
-        singleRank: 8,
+        singleRank: 9
       },
       {
         course: "应用文写作",
         score: 79,
         comment: "",
-        singleRank: 11,
+        singleRank: 22
       },
       {
         course: "就业指导",
         score: 86,
         comment: "",
-        singleRank: 5,
+        singleRank: 11
       },
       {
         course: "体育",
         score: 100,
         comment: "",
-        singleRank: 1,
+        singleRank: 1
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 92,
         comment: "",
-        singleRank: 7,
+        singleRank: 17
       },
       {
         course: "劳动教育",
@@ -2163,19 +2161,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 10
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 78,
         comment: "",
-        singleRank: 6,
+        singleRank: 10
       },
       {
         course: "Java编程技术基础",
         score: 70,
         comment: "",
-        singleRank: 5,
+        singleRank: 8
       },
     ],
   },
@@ -2189,31 +2187,31 @@ const score = [
         course: "毛泽东思想和中国特色社会主义理论体系概论",
         score: 83,
         comment: "",
-        singleRank: 14,
+        singleRank: 18
       },
       {
         course: "应用文写作",
         score: 76,
         comment: "",
-        singleRank: 14,
+        singleRank: 26
       },
       {
         course: "就业指导",
         score: 85,
         comment: "",
-        singleRank: 6,
+        singleRank: 12
       },
       {
         course: "体育",
         score: 72,
         comment: "",
-        singleRank: 7,
+        singleRank: 20
       },
       {
         course: "情绪管理（尔雅通识课）",
         score: 80,
         comment: "",
-        singleRank: 12,
+        singleRank: 24
       },
       {
         course: "劳动教育",
@@ -2225,19 +2223,19 @@ const score = [
         course: "HTML5+CSS3",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 17
       },
       {
         course: "HTML5+CSS3项目实战",
         score: 65,
         comment: "",
-        singleRank: 10,
+        singleRank: 18
       },
       {
         course: "Java编程技术基础",
         score: 80,
         comment: "",
-        singleRank: 2,
+        singleRank: 4
       },
     ],
   },

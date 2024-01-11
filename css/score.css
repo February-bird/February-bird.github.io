@@ -1,9 +1,10 @@
 @import url(reset.css);
+@import url(common.css);
 @import url(query.css);
 table {
-  display: block;
-  margin: auto;
+  display: none;
   padding: 1rem 2rem;
+  min-width: 47rem;
   border: 1px solid rgb(169, 142, 218);
   border-collapse: collapse;
   font-size: 1.25rem;
@@ -63,5 +64,22 @@ tfoot {
   color: #dc3545;
 }
 
+
+.loading{
+  width: 8rem;
+  animation: loading 2s linear infinite;
+}
+
+
+@keyframes loading {
+  0%{
+    transform: rotate(0);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
 
 

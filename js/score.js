@@ -1,6 +1,7 @@
 // 分数详情页
 import { request, findOneByIndex } from "./db/db.js";
 
+
 // 获取query
 const id = getSearchParams(location.href, "id");
 const stuName = getSearchParams(location.href, "name");
@@ -26,7 +27,7 @@ if (overallRank) {
   subjects.forEach(value => {
     const { course, score, singleRank, comment } = value;
     initValue(".course", course);
-    initValue(".score", score, true);
+    initValue(".score", score);
     initValue(".single-rank", singleRank);
     initValue(".comment", comment);
     const clone = doc.importNode(templateContent, true);
@@ -45,17 +46,23 @@ if (overallRank) {
 const tbody = doc.querySelector("tbody");
 tbody.append(fragment);
 
+// 取消加载动画
+const loading = document.querySelector(".loading")
+const table = document.querySelector("table")
+loading.classList.add("hide")
+table.classList.add("show")
+
 function initValue(
   selector,
   text,
-  isScore = false,
   template = templateContent
 ) {
   const td = template.querySelector(selector);
   td.textContent = text;
-  if ((isScore && text < 60) || text == "缺考" || text == "补考") {
+  if ((selector == ".score" && text < 60) || text == "缺考" || text == "补考") {
     td.classList.add("not-pass");
-  } else {
+  }
+  else {
     td.classList.remove("not-pass");
   }
 }
