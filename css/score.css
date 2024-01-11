@@ -5,7 +5,7 @@ table {
   display: none;
   margin: auto;
   padding: 1rem 2rem;
-  min-width: 47rem;
+/*   min-width: 47rem; */
   border: 1px solid rgb(169, 142, 218);
   border-collapse: collapse;
   font-size: 1.25rem;
