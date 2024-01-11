@@ -3,6 +3,7 @@
 @import url(query.css);
 table {
   display: none;
+  margin: auto;
   padding: 1rem 2rem;
   min-width: 47rem;
   border: 1px solid rgb(169, 142, 218);
