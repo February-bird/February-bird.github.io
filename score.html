@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.svg" type="xml/svg" />
+    <link rel="stylesheet" href="css/score.css" />
+    <title>成绩详情</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="img/favicon.svg" type="xml/svg">
-  <link rel="stylesheet" href="css/score.css" />
-  <title>成绩详情</title>
-</head>
-
-<body>
-  <template id="row-element">
-    <tr>
-      <td class="course"></td>
-      <td class="score"></td>
-      <td class="single-rank"></td>
-      <td class="comment"></td>
-    </tr>
-  </template>
-  <img class="loading" src="img/loading.svg" alt="">
-  <table>
-    <caption>
-      <img class="pass-img" src="img/pass.svg" alt="" />
-      <h2>2023下半年期末成绩单</h2>
-      <div class="title">
-        <span>学号:</span><span class="stu-id"></span>
-        <span>姓名:</span><span class="stu-name"></span>
-      </div>
-    </caption>
-    <thead>
+  <body>
+    <template id="template">
       <tr>
-        <th>科目</th>
-        <th>成绩</th>
-        <th>排名</th>
-        <th>备注</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
-    </thead>
-    <tbody></tbody>
-    <tfoot>
-      <tr>
-        <td>班级排名</td>
-        <td colspan="2" class="overall-rank"></td>
-      </tr>
-    </tfoot>
-  </table>
-</body>
-<script src="./js/score.js" type="module"></script>
-
+    </template>
+    <img class="loading" src="img/loading.svg" />
+    <table>
+      <caption>
+        <img class="pass-img" src="img/pass.svg" />
+        <h2>2023下半年期末成绩单</h2>
+        <div class="title">
+          <span>学号:&nbsp;<span class="stu-id"></span></span>
+          <span>姓名:&nbsp;<span class="stu-name"></span></span>
+        </div>
+      </caption>
+      <thead>
+        <tr>
+          <th>科目</th>
+          <th>成绩</th>
+          <th>排名</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr>
+          <td>班级排名</td>
+          <td colspan="2" class="overall-rank"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+  <script src="./js/score.js" type="module"></script>
 </html>

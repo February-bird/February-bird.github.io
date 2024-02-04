@@ -4,45 +4,40 @@ import { request, findOneByIndex } from "./db/db.js";
 // 获取query
 const id = getSearchParams(location.href, "id");
 const stuName = getSearchParams(location.href, "name");
-
-// 设置学号和姓名
+// 获取数据
+const { subjects, overallRank } = await getOneScoreByid(id);
+// 设置学号,姓名,排名
 const doc = document;
 setTextContent(".stu-id", id);
 setTextContent(".stu-name", stuName);
-// 获取数据
-const { subjects, overallRank } = await getOneScoreByid(id);
 setTextContent(".overall-rank", overallRank);
-// 获取模板
-const templateContent = doc.querySelector("#row-element").content;
-const fragment = doc.createDocumentFragment();
-// 将数据设置到表格中
-let noPassNumber = 0;
-if (overallRank) {
-  subjects.forEach(value => {
-    const { course, score, singleRank, comment } = value;
-    initValue(".course", course);
-    initValue(".score", score);
-    initValue(".single-rank", singleRank);
-    initValue(".comment", comment);
-    const clone = doc.importNode(templateContent, true);
-    fragment.append(clone);
-    score < 60 && noPassNumber++;
-  });
-  // // 根据不同分数和排名显示不同的图案
-  const passImg = doc.querySelector(".pass-img");
-  if (noPassNumber) {
-    passImg.src = "img/nopass.svg";
-  } else if (overallRank < 11) {
-    passImg.src = "img/good.svg";
-  }
+
+// 获取模板,遍历科目,动态生成数据
+const template = doc.querySelector("#template").content;
+const tds = template.querySelectorAll("td");
+const fragment = new DocumentFragment();
+let noPassCount = 0;
+subjects?.forEach(({ course, score, singleRank, comment }) => {
+  initValue(tds[0], course);
+  initValue(tds[1], score, "SCORE");
+  initValue(tds[2], singleRank);
+  initValue(tds[3], comment, "COMMENT");
+  const clone = doc.importNode(template, true);
+  fragment.append(clone);
+  score < 60 && noPassCount++;
+});
+// // 根据不同分数和排名显示不同的图案
+const passImg = doc.querySelector(".pass-img");
+if (noPassCount) {
+  passImg.src = "img/nopass.svg";
+} else if (overallRank < 11) {
+  passImg.src = "img/good.svg";
 }
 
-const tbody = doc.querySelector("tbody");
-tbody.append(fragment);
-
+const table = doc.querySelector("table");
+table.tBodies[0].append(fragment);
 // 取消加载动画
-const loading = document.querySelector(".loading");
-const table = document.querySelector("table");
+const loading = doc.querySelector(".loading");
 loading.classList.add("hide");
 table.classList.add("show");
 
@@ -51,13 +46,13 @@ function setTextContent(selector, text) {
   ele.textContent = text;
 }
 
-function initValue(selector, text) {
-  setTextContent(selector, text);
-  if ((selector == ".score" && text < 60) || text == "缺考" || text == "补考") {
-    td.classList.add("not-pass");
+function initValue(ele, text, tag = "") {
+  ele.textContent = text;
+  if ((tag == "SCORE" && text < 60) || tag == "COMMENT") {
+    ele.classList.add("not-pass");
     return;
   }
-  td.classList.remove("not-pass");
+  ele.classList.remove("not-pass");
 }
 
 function getSearchParams(url, key) {
