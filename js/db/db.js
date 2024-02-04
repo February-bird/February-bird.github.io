@@ -4,13 +4,12 @@ import { stuInfo, score } from "./data.js";
 // 初始化数据库
 const DB_NAME = "scoreQuery";
 const request = indexedDB.open(DB_NAME);
-request.onupgradeneeded = event => {
+request.onupgradeneeded = e => {
   const db = request.result;
   // 创建学生信息表和成绩表
   createStore(db, "stuInfo", "id", "stuNo", "stuNo", stuInfo);
   createStore(db, "score", "stuNo", "stuNo", "stuNo", score);
 };
-
 
 // 创建store(表)
 function createStore(db, storeName, primaryKey, indexName, indexFiled, data) {
@@ -30,8 +29,8 @@ function createStore(db, storeName, primaryKey, indexName, indexFiled, data) {
   }
 }
 
-// 查询信息
-function findOneByIndex( scoreName, indexName, indexValue) {
+// 通过索引查询学生信息
+function findOneByIndex(scoreName, indexName, indexValue) {
   return request.result
     .transaction(scoreName)
     .objectStore(scoreName)
@@ -39,4 +38,18 @@ function findOneByIndex( scoreName, indexName, indexValue) {
     .get(indexValue);
 }
 
-export { request, findOneByIndex };
+// 根据学生id(学号)查询成绩
+async function getOneScoreByid(id) {
+  try {
+    return new Promise(resolve => {
+      request.onsuccess = () => {
+        const req = findOneByIndex("score", "stuNo", id);
+        req.onsuccess = e => resolve(e.target.result);
+      };
+    });
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+export { findOneByIndex, getOneScoreByid };

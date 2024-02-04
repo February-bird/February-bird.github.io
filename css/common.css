@@ -5,3 +5,7 @@
 .show {
   display: block !important;
 }
+
+.enabled {
+  background: #7540bf !important;
+}

@@ -1,4 +1,5 @@
 import { findOneByIndex } from "./db/db.js";
+import { addClass, removeClass } from "./tools/dom.js";
 
 const doc = document;
 const inputs = doc.querySelectorAll(".input-ele");
@@ -6,13 +7,12 @@ const btn = doc.querySelector(".btn");
 isActiveBtn();
 inputs.forEach(ele => {
   ele.addEventListener("input", e => {
-    const active = isActiveBtn();
     // 去除边框红线提示
-    if (active) {
+    if (isActiveBtn()) {
       const ele = doc.querySelector(".tips");
-      ele.classList.remove("show");
-      inputs[0].classList.remove("border-tips");
-      inputs[1].classList.remove("border-tips");
+      removeClass(ele, "show");
+      removeClass(inputs[0], "border-tips");
+      removeClass(inputs[1], "border-tips");
     }
   });
 });
@@ -35,19 +35,18 @@ btn.addEventListener("click", e => {
     }
     // 账号或密码错误添加红线提示
     const ele = doc.querySelector(".tips");
-    ele.classList.add("show");
-    inputs.forEach(ele => ele.classList.add("border-tips"));
+    addClass(ele, "show");
+    inputs.forEach(ele => addClass(ele, "border-tips"));
   };
 });
 
 function isActiveBtn() {
   if (inputs[0].value && inputs[1].value) {
     btn.disabled = false;
-    btn.style.backgroundColor = "#7540bf";
+    addClass(btn, "enabled");
     return true;
   }
 
   btn.disabled = true;
-  btn.style.backgroundColor = "#e0cffc";
-  return false;
+  removeClass(btn, "enabled");
 }

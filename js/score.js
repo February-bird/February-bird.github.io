@@ -1,5 +1,7 @@
 // 分数详情页
-import { request, findOneByIndex } from "./db/db.js";
+import { getSearchParams } from "./tools/url.js";
+import { getOneScoreByid } from "./db/db.js";
+import { addClass, removeClass, setTextContent } from "./tools/dom.js";
 
 // 获取query
 const id = getSearchParams(location.href, "id");
@@ -26,7 +28,8 @@ subjects?.forEach(({ course, score, singleRank, comment }) => {
   fragment.append(clone);
   score < 60 && noPassCount++;
 });
-// // 根据不同分数和排名显示不同的图案
+
+// 根据不同分数和排名显示不同的图案
 const passImg = doc.querySelector(".pass-img");
 if (noPassCount) {
   passImg.src = "img/nopass.svg";
@@ -38,36 +41,16 @@ const table = doc.querySelector("table");
 table.tBodies[0].append(fragment);
 // 取消加载动画
 const loading = doc.querySelector(".loading");
-loading.classList.add("hide");
-table.classList.add("show");
+addClass(loading,"hide")
+addClass(table, "show")
 
-function setTextContent(selector, text) {
-  const ele = doc.querySelector(selector);
-  ele.textContent = text;
-}
 
-function initValue(ele, text, tag = "") {
-  ele.textContent = text;
-  if ((tag == "SCORE" && text < 60) || tag == "COMMENT") {
-    ele.classList.add("not-pass");
+
+function initValue(td, text, tag = "") {
+  td.textContent = text;
+  if ((tag == "SCORE" && text < 60) || (tag == "COMMENT" && text)) {
+    addClass(td, "not-pass");
     return;
   }
-  ele.classList.remove("not-pass");
-}
-
-function getSearchParams(url, key) {
-  return new URL(url).searchParams.get(key);
-}
-
-async function getOneScoreByid(id) {
-  try {
-    return new Promise(resolve => {
-      request.onsuccess = () => {
-        const req = findOneByIndex("score", "stuNo", id);
-        req.onsuccess = e => resolve(e.target.result);
-      };
-    });
-  } catch (error) {
-    console.error(error);
-  }
+  removeClass(td, "not-pass");
 }
