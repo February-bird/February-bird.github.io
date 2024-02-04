@@ -1,23 +1,17 @@
 // 分数详情页
 import { request, findOneByIndex } from "./db/db.js";
 
-
 // 获取query
 const id = getSearchParams(location.href, "id");
 const stuName = getSearchParams(location.href, "name");
 
 // 设置学号和姓名
 const doc = document;
-const idStu = doc.querySelector(".stu-id");
-idStu.textContent = `学号: ${id}`;
-const nameStu = doc.querySelector(".stu-name");
-nameStu.textContent = `姓名: ${stuName}`;
-
+setTextContent(".stu-id", id);
+setTextContent(".stu-name", stuName);
 // 获取数据
 const { subjects, overallRank } = await getOneScoreByid(id);
-const rank = doc.querySelector(".overall-rank");
-rank.textContent = overallRank;
-
+setTextContent(".overall-rank", overallRank);
 // 获取模板
 const templateContent = doc.querySelector("#row-element").content;
 const fragment = doc.createDocumentFragment();
@@ -47,24 +41,23 @@ const tbody = doc.querySelector("tbody");
 tbody.append(fragment);
 
 // 取消加载动画
-const loading = document.querySelector(".loading")
-const table = document.querySelector("table")
-loading.classList.add("hide")
-table.classList.add("show")
+const loading = document.querySelector(".loading");
+const table = document.querySelector("table");
+loading.classList.add("hide");
+table.classList.add("show");
 
-function initValue(
-  selector,
-  text,
-  template = templateContent
-) {
-  const td = template.querySelector(selector);
-  td.textContent = text;
+function setTextContent(selector, text) {
+  const ele = doc.querySelector(selector);
+  ele.textContent = text;
+}
+
+function initValue(selector, text) {
+  setTextContent(selector, text);
   if ((selector == ".score" && text < 60) || text == "缺考" || text == "补考") {
     td.classList.add("not-pass");
+    return;
   }
-  else {
-    td.classList.remove("not-pass");
-  }
+  td.classList.remove("not-pass");
 }
 
 function getSearchParams(url, key) {
@@ -80,6 +73,6 @@ async function getOneScoreByid(id) {
       };
     });
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 }
