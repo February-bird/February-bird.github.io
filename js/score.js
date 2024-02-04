@@ -33,6 +33,8 @@ subjects?.forEach(({ course, score, singleRank, comment }) => {
 const passImg = doc.querySelector(".pass-img");
 if (noPassCount) {
   passImg.src = "img/nopass.svg";
+} else if (!noPassCount) {
+  passImg.src = "img/pass.svg";
 } else if (overallRank < 11) {
   passImg.src = "img/good.svg";
 }
@@ -41,10 +43,8 @@ const table = doc.querySelector("table");
 table.tBodies[0].append(fragment);
 // 取消加载动画
 const loading = doc.querySelector(".loading");
-addClass(loading,"hide")
-addClass(table, "show")
-
-
+addClass(loading, "hide");
+addClass(table, "show");
 
 function initValue(td, text, tag = "") {
   td.textContent = text;
