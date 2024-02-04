@@ -59,7 +59,7 @@ input::placeholder {
 input[type="submit"] {
   font-size: 2.25rem;
   letter-spacing: 5px;
-  cursor: pointer;
+  cursor: not-allowed;
   color: #fff;
   background-color: #e0cffc;
   border: none;

@@ -7,5 +7,6 @@
 }
 
 .enabled {
+  cursor: pointer !important;
   background: #7540bf !important;
 }
